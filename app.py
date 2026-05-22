@@ -117,25 +117,12 @@ with col_documentazione:
     # Usiamo un box informativo per dare istruzioni su questa colonna
     st.info("💡 Questa sezione serve a spiegare ai professori o ai visitatori del sito le varie fasi del codice che abbiamo sviluppato su Google Colab.")
 
-    # CASSELLA DI TESTO 2: FASE DI SETUP
-    with st.expander("📌 Fase 1: Importazione Librerie e Ambiente", expanded=True):
-        st.markdown("""
-        **CANCELLA QUESTO TESTO E MODIFICA QUI:**
-        *Scrivi qui cosa avete fatto nella prima parte del workshop. Ad esempio: Abbiamo preparato l'ambiente Python su Google Colab installando i pacchetti di Google e impostato le librerie utili a gestire i dati.*
-        """)
-        # Mostriamo il blocco di codice relativo
-        st.code("""
-# Installazione dell'SDK aggiornato di Google
-!pip install google-genai streamlit
-
-from google import genai
-from google.genai import types
-        """, language="python")
+   
 
 
 
     # CASSELLA DI TESTO 4: SYSTEM INSTRUCTION (IL CUORE DEL BOT)
-    with st.expander("🧠 Fase 3: Le Regole di Comportamento dell'IA", expanded=False):
+    with st.expander("🧠 SYSTEM INSTRUCTION", expanded=False):
         st.markdown("""
        
         *Il prompt del chatbot è la parte più importante del progetto. I cambiamenti che abbiamo apportato al chatbot sono diversi. gli abbiamo detto di usare un tono professionale, non troppo amichevole perché l'obiettivo del chatbot è quello di spronare il ragazzo a parlarne con amici, genitori o professori.
