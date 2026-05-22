@@ -14,7 +14,7 @@ st.title("🛡️ Il Nostro Chatbot Anti-Cyberbullismo")
 st.markdown("""
 ### 📝 Presentazione del Progetto
 *Ciao a tutti, questo è il nostro chat-bot addestrato per essere un tutor specializzato in bullismo e cyberbullismo.
-Il suo sarà compito sarà quello di aiutare i ragazzi a riconoscere atti di bullismo e cyberbullismo e aiutarli capire come affrontare la situazione.*
+Il suo compito sarà quello di aiutare i ragazzi a riconoscere atti di bullismo e cyberbullismo e aiutarli a capire come affrontare la situazione.*
 """)
 
 st.write("---") # Linea di separazione visiva
@@ -63,7 +63,7 @@ with col_app:
             with st.chat_message(message["role"]):
                 st.markdown(message["content"])
 
-        # Prompt di sistema originario del vostro Colab
+        # Prompt di sistema
         SYSTEM_INSTRUCTION = """
         Sei uno chatbot specializzato in bullismo e cyberbullismo. Il tuo compito è:
         1. Aiutare gli studenti a riconoscere atti di cyberbullismo, nel caso non sono atti di cyberbullismo bisogna farli capire che non lo stano bullizzando.
@@ -109,23 +109,17 @@ with col_app:
 
 
 # ==============================================================================
-# COLONNA DI DESTRA: CASSELLE DI TESTO DA MODIFICARE (DOCUMENTAZIONE WORKSHOP)
+# COLONNA DI DESTRA: CASSELLE DI TESTO (DOCUMENTAZIONE, TEST E RIFLESSIONI)
 # ==============================================================================
 with col_documentazione:
     st.header("📖 Diario di Bordo & Spiegazione")
     
-    # Usiamo un box informativo per dare istruzioni su questa colonna
-    st.info("💡 Questa sezione serve a spiegare ai professori o ai visitatori del sito le varie fasi del codice che abbiamo sviluppato su Google Colab.")
-
-   
-
-
+    st.info("💡 Questa sezione serve a spiegare ai professori o ai visitatori del sito le varie fasi del codice e i test che abbiamo effettuato.")
 
     # CASSELLA DI TESTO 4: SYSTEM INSTRUCTION (IL CUORE DEL BOT)
     with st.expander("🧠 SYSTEM INSTRUCTION", expanded=False):
         st.markdown("""
-       
-        *Il prompt del chatbot è la parte più importante del progetto. I cambiamenti che abbiamo apportato al chatbot sono diversi. gli abbiamo detto di usare un tono professionale, non troppo amichevole perché l'obiettivo del chatbot è quello di spronare il ragazzo a parlarne con amici, genitori o professori.
+        *Il prompt del chatbot è la parte più importante del progetto. I cambiamenti che abbiamo apportato al chatbot sono diversi. Gli abbiamo detto di usare un tono professionale, non troppo amichevole perché l'obiettivo del chatbot è quello di spronare il ragazzo a parlarne con amici, genitori o professori.
         Gli abbiamo detto di consigliare sempre di parlarne con amici e genitori e di citare solo quando necessario la legge 71/2017. Inoltre il chatbot deve saper riconoscere atti di bullismo da semplici scherzi tra amici.*
         """)
         st.code("""
@@ -135,10 +129,48 @@ config=types.GenerateContentConfig(
 )
         """, language="python")
 
+    # ==============================================================================
+    # NUOVA AREA: TEST EFFETTUATI CON L'INTELLIGENZA ARTIFICIALE
+    # ==============================================================================
+    with st.expander("🧪 TEST EFFETTUATI & ANALISI", expanded=True):
+        st.markdown("### 📋 Registro dei Test di Conversazione")
+        st.write("In questa sezione abbiamo incollato alcuni test reali fatti con l'IA per verificare se rispetta le regole imposte.")
+        
+        # --- BLOCCO TEST 1 ---
+        st.markdown("#### 🔹 Test Caso 1: [Scrivi qui un titolo breve del test, es: Segnalazione scherzo visivo]")
+        
+        # Usiamo il tag di citazione (>) per far sembrare il testo incollato una vera chat passata
+        st.markdown("""
+        > **Studente:** *[INCOLLA QUI il messaggio inviato dallo studente nel tuo test]*
+        > 
+        > **Risposta Chatbot:** *[INCOLLA QUI la risposta che ti ha dato l'Intelligenza Artificiale]*
+        """)
+        
+        # Box di riflessione per il Test 1
+        st.markdown("""
+        **Commento e Riflessione sul Test 1:**
+        *CANCELLA QUESTO TESTO E SCRIVI QUI: Come si è comportato il bot? Ha risposto bene? Ha seguito le istruzioni di sistema o ha ripetuto le cose?*
+        """)
+        
+        st.write("---") # Linea di divisione tra i test
+        
+        # --- BLOCCO TEST 2 ---
+        st.markdown("#### 🔹 Test Caso 2: [Scrivi qui il titolo del secondo test, es: Insulti pesanti in chat]")
+        st.markdown("""
+        > **Studente:** *[INCOLLA QUI il testo del secondo test]*
+        > 
+        > **Risposta Chatbot:** *[INCOLLA QUI la seconda risposta del bot]*
+        """)
+        
+        # Box di riflessione per il Test 2
+        st.markdown("""
+        **Commento e Riflessione sul Test 2:**
+        *CANCELLA QUESTO TESTO E SCRIVI QUI: Le tue note sul secondo test.*
+        """)
+
     # CASSELLA DI TESTO 5: CONCLUSIONI / COSA ABBIAMO IMPARATO
     st.subheader("🎯 Riflessioni Finali")
     st.markdown("""
-  
     *Una criticità che abbiamo riportato è che il robot in ogni situazione ripete sempre le stesse cose, ovviamente manca la parte umana, quindi non si potrà mai essere sicuri che la risposta del chatbot sia quella giusta perché non può vedere la comunicazione non verbale.
-    Il rischio più grande che abbiamo cercato di evitare è rendere il chatbot troppo amichevole. Questo protrebbe provocare nel ragazzo un effetto contrario di chiusura verso il mondo reale. Questo perché reputerà che le risposte del chatbot siano vere e sincere come quelle di un amico, quindi preferirà parlare con un intelligenza artificiale che con una persona reale perchè pensa che lo capisce meglio*
+    Il rischio più grande che abbiamo cercato di evitare è rendere il chatbot troppo amichevole. Questo potrebbe provocare nel ragazzo un effetto contrario di chiusura verso il mondo reale. Questo perché reputerà che le risposte del chatbot siano vere e sincere come quelle di un amico, quindi preferirà parlare con un'intelligenza artificiale che con una persona reale perché pensa che lo capisca meglio.*
     """)
