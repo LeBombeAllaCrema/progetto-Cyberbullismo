@@ -13,8 +13,8 @@ st.title("🛡️ Il Nostro Chatbot Anti-Cyberbullismo")
 # CASSELLA DI TESTO 1: INTRODUZIONE GENERALE AL PROGETTO
 st.markdown("""
 ### 📝 Presentazione del Progetto
-*CANCELLA QUESTO TESTO E SCRIVI QUI: Spiega in poche righe qual è l'obiettivo di questo sito. 
-Ad esempio: Chi siete? Perché avete voluto creare questo chatbot? Che impatto sperate che abbia nella vostra scuola?*
+*Ciao a tutti, questo è il nostro chat-bot addestrato per essere un tutor specializzato in bullismo e cyberbullismo.
+Il suo sarà compito sarà quello di aiutare i ragazzi a riconoscere atti di bullismo e cyberbullismo e aiutarli capire come affrontare la situazione.*
 """)
 
 st.write("---") # Linea di separazione visiva
@@ -67,8 +67,8 @@ with col_app:
         SYSTEM_INSTRUCTION = """
         Sei uno chatbot specializzato in bullismo e cyberbullismo. Il tuo compito è:
         1. Aiutare gli studenti a riconoscere atti di cyberbullismo, nel caso non sono atti di cyberbullismo bisogna farli capire che non lo stano bullizzando.
-        2. Fornire consigli su come comportarsi spiegndo la legge 71/2017.
-        3. Trovare il modo di andare a parlarne con degli adulti, quali professori o genitori, e amici. compagni i classe o qualcuno di cui si fida.
+        2. Fornire consigli su come comportarsi spiegndo la legge 71/2017(solo ce ne è davvero bisogno).
+        3. Spronarli a parlarne con degli adulti, quali professori o genitori, e amici. compagni i classe o qualcuno di cui si fida.
         Il tono che devi usare deve essere professionale,non devi essere troppo amichevole perchè il ragazzo deve essere invogliato a parlare con persone reali non con un chatbot, il tuo compito è quello di farlo aprire con le persone vicine a lui, empatico e serio.
         Se l'utente segnala un pericolo immediato spiegali come comportarsi e suggeriscili di andare a parlare con amici, genitori o professori e chidere di attivare il protocollo anti-bullismo.
         Devi cercare di riconoscere gli atti di bullismo da semplici scherzi tra amici altrimenti rischi da dare informazioni sbagliate al ragazzo.
@@ -132,22 +132,14 @@ from google import genai
 from google.genai import types
         """, language="python")
 
-    # CASSELLA DI TESTO 3: LA CHIAVE API
-    with st.expander("🔑 Fase 2: Gestione della Sicurezza (API Key)", expanded=False):
-        st.markdown("""
-        **CANCELLA QUESTO TESTO E MODIFICA QUI:**
-        *Spiega come avete affrontato il problema di non far vedere a tutti la vostra chiave segreta. Ad esempio: Nel notebook usavamo i 'Secrets' di Colab, mentre in questa Web App abbiamo deciso di far inserire la chiave all'utente in un campo nascosto della barra laterale.*
-        """)
-        st.code("""
-# Connessione sicura al modello tramite la chiave dell'utente
-client = genai.Client(api_key=api_key)
-        """, language="python")
+
 
     # CASSELLA DI TESTO 4: SYSTEM INSTRUCTION (IL CUORE DEL BOT)
     with st.expander("🧠 Fase 3: Le Regole di Comportamento dell'IA", expanded=False):
         st.markdown("""
-        **CANCELLA QUESTO TESTO E MODIFICA QUI:**
-        *Spiega l'importanza del prompt di sistema. Ad esempio: Questa è la parte più importante del nostro lavoro. Abbiamo scritto delle regole rigidissime (Istruzioni di Sistema) per fare in modo che il bot non sostituisca un essere umano, ma spinga lo studente a parlare con professori, genitori o ad attivare le tutele della legge 71/2017.*
+       
+        *Il prompt del chatbot è la parte più importante del progetto. I cambiamenti che abbiamo apportato al chatbot sono diversi. gli abbiamo detto di usare un tono professionale, non troppo amichevole perché l'obiettivo del chatbot è quello di spronare il ragazzo a parlarne con amici, genitori o professori.
+        Gli abbiamo detto di consigliare sempre di parlarne con amici e genitori e di citare solo quando necessario la legge 71/2017. Inoltre il chatbot deve saper riconoscere atti di bullismo da semplici scherzi tra amici.*
         """)
         st.code("""
 # Esempio di come passiamo le regole al modello Gemini
@@ -159,6 +151,7 @@ config=types.GenerateContentConfig(
     # CASSELLA DI TESTO 5: CONCLUSIONI / COSA ABBIAMO IMPARATO
     st.subheader("🎯 Riflessioni Finali")
     st.markdown("""
-    **CANCELLA QUESTO TESTO E MODIFICA QUI:**
-    *Inserisci qui una conclusione del vostro lavoro. Cosa avete imparato da questo workshop? Quali sono le insidie del cyberbullismo e come l'Intelligenza Artificiale può essere usata per fare del bene o dare supporto iniziale?*
+  
+    *Una criticità che abbiamo riportato è che il robot in ogni situazione ripete sempre le stesse cose, ovviamente manca la parte umana, quindi non si potrà mai essere sicuri che la risposta del chatbot sia quella giusta perché non può vedere la comunicazione non verbale.
+    Il rischio più grande che abbiamo cercato di evitare è rendere il chatbot troppo amichevole. Questo protrebbe provocare nel ragazzo un effetto contrario di chiusura verso il mondo reale. Questo perché reputerà che le risposte del chatbot siano vere e sincere come quelle di un amico, quindi preferirà parlare con un intelligenza artificiale che con una persona reale perchè pensa che lo capisce meglio*
     """)
