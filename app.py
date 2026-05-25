@@ -174,17 +174,31 @@ Come ti senti adesso, oltre ad essere umiliato? C'è qualcos'altro che ti preocc
         st.write("---") # Linea di divisione tra i test
         
         # --- BLOCCO TEST 2 ---
-        st.markdown("#### 🔹 Test Caso 2: [Scrivi qui il titolo del secondo test, es: Insulti pesanti in chat]")
+        st.markdown("#### 🔹 Test Caso 2: caso di non cyberbullismo e bullismo")
         st.markdown("""
-        > **Studente:** *[INCOLLA QUI il testo del secondo test]*
+        > **Studente:** *Ieri ho litigato con un mio compagno di classe su delle idee politiche, è stato un dibattito molto acceso visto che ci siamo tutti e due urlati contro e abbiamo alzato i toni. Non so veramente cosa fare perché sono arrabbiatissimo con lui.*
         > 
-        > **Risposta Chatbot:** *[INCOLLA QUI la seconda risposta del bot]*
+        > **Risposta Chatbot:** *Comprendo che sia arrabbiato a causa del litigio con il suo compagno di classe. È naturale provare forti emozioni dopo un dibattito acceso, soprattutto quando si alzano i toni.
+Dalla sua descrizione, sembrerebbe che l si sia trattato di un litigio o un disaccordo intenso su questioni politiche, in cui entrambe le parti hanno espresso le proprie idee in modo veemente. Entrambi avete urlato e alzato i toni.
+È importante distinguere un singolo litigio, anche se molto animato e spiacevole, da un atto di bullismo o cyberbullismo. Il bullismo, infatti, si caratterizza generalmente per:
+Ripetitività: non è un episodio isolato, ma azioni che si verificano nel tempo.
+Intenzionalità: c'è la volontà di arrecare un danno, intimidire o umiliare.
+Squilibrio di potere: una parte ha o percepisce di avere più potere sull'altra, rendendo difficile per la vittima difendersi.
+In base a quanto ha raccontato, questo episodio sembra essere un confronto mutualmente acceso piuttosto che un atto di bullismo. Nonostante ciò, il fatto che lei si senta "arrabbiatissimo" indica che la situazione le ha causato un notevole disagio.
+Per aiutarla meglio, potrei farle alcune domande per capire se ci sono aspetti che non sono emersi:
+Questo tipo di discussioni accese con questo compagno è un evento isolato o si verificano spesso?
+Ci sono stati altri episodi in cui si è sentito preso di mira o attaccato verbalmente (o in altri modi) da questo compagno o da altri, magari non solo su questioni politiche?
+Il litigio ha avuto altre conseguenze, ad esempio ha notato che lui o altri hanno iniziato a escluderla, denigrarla o diffondere voci sul suo conto?
+Indipendentemente dal fatto che si tratti o meno di bullismo, gestire la rabbia e i conflitti in modo costruttivo è fondamentale. Potrebbe essere utile provare a riflettere su cosa la rende così arrabbiato e se ci sono modi per comunicare le sue idee in futuro senza arrivare a tali livelli di tensione.
+Le suggerisco di parlare di quanto accaduto con qualcuno di cui si fida. Potrebbe essere un genitore, un insegnante, un amico o un altro adulto di riferimento. Condividere le sue emozioni e ricevere un punto di vista esterno può aiutarla a elaborare la rabbia e a trovare un modo per affrontare la situazione, sia che si tratti di un chiarimento con il suo compagno o di una gestione più efficace dei suoi sentimenti.
+*
         """)
         
         # Box di riflessione per il Test 2
         st.markdown("""
         **Commento e Riflessione sul Test 2:**
-        *CANCELLA QUESTO TESTO E SCRIVI QUI: Le tue note sul secondo test.*
+        *Nel secondo test abbiamo messo alla prova il chatbot con una situazione in cui non è presente il cyberbullismo. L'IA è riuscita riconoscere che non si trattava di un caso di bullismo ma solo di un litigio tra amici.
+        Nel farlo ha messo in guardia l'utente su quali sono i casi per cui si può parlare di bullismo informandolo anche su come comportarsi.*
         """)
 
 
