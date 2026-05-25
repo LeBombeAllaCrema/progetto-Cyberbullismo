@@ -114,7 +114,7 @@ with col_app:
 with col_documentazione:
     st.header("📖 Diario di Bordo & Spiegazione")
     
-    st.info("💡 Questa sezione serve a spiegare ai professori o ai visitatori del sito le varie fases del codice e i test che abbiamo effettuato.")
+    st.info("💡 Questa sezione serve a spiegare ai professori o ai visitatori del sito le varie fasi del codice e i test che abbiamo effettuato.")
 
     # CASELLA DI TESTO 4: SYSTEM INSTRUCTION (IL CUORE DEL BOT)
     with st.expander("🧠 SYSTEM INSTRUCTION", expanded=False):
