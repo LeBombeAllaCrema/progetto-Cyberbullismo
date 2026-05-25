@@ -184,7 +184,7 @@ Dal test sul caso reale di cyberbullismo abbiamo notato che il chatbot si è mos
 * Ha fornito linee guida pratiche e consigliato di **parlarne con figure di riferimento** (genitori, docenti, amici).
 """)
         
-        st.write("---") # Linea di divisione tra i test
+        
         
         # --- BLOCCO TEST 2 ---
         st.markdown("#### 🔹 Test Caso 2: caso di non cyberbullismo e bullismo")
