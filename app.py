@@ -141,10 +141,10 @@ config=types.GenerateContentConfig(
         
         # Usiamo il tag di citazione (>) per far sembrare il testo incollato una vera chat passata
         st.markdown("""
-        > **Studente:**Ciao sono uno studente delle superiori, i miei compagni di classe da inizio mi continuano a prendere in giro da inizio anno e continuano anche se gli dico di fermarsi. Ieri hanno esagerato mi hanno fatto una foto mentre ero al bagno e l'hanno pubblicata online , adeso sono lo zimbello di tutta la scuola 
+        > *Studente:*Ciao sono uno studente delle superiori, i miei compagni di classe da inizio mi continuano a prendere in giro da inizio anno e continuano anche se gli dico di fermarsi. Ieri hanno esagerato mi hanno fatto una foto mentre ero al bagno e l'hanno pubblicata online , adeso sono lo zimbello di tutta la scuola 
 *
         > 
-        > **Risposta Chatbot:** *Mi dispiace molto sentire ciò che stai vivendo. Comprendo che questa situazione ti stia causando un grande disagio e umiliazione, e voglio subito chiarire che ciò che ti è accaduto è un atto grave e inaccettabile di bullismo e cyberbullismo.
+        > *Risposta Chatbot:* *Mi dispiace molto sentire ciò che stai vivendo. Comprendo che questa situazione ti stia causando un grande disagio e umiliazione, e voglio subito chiarire che ciò che ti è accaduto è un atto grave e inaccettabile di bullismo e cyberbullismo.
 tuoi compagni ti prendono in giro da inizio anno e non si fermano nonostante le tue richieste, e l'episodio della foto scattata in bagno e pubblicata online è una chiara violazione della tua privacy e della tua dignità. Questo tipo di comportamento, che ti espone al pubblico ludibrio e ti fa sentire lo "zimbello di tutta la scuola", è proprio ciò che la legge italiana intende per cyberbullismo e bullismo.
 È fondamentale che tu sappia che esistono strumenti e supporti per affrontare questa situazione. La Legge 71/2017, infatti, è stata istituita proprio per contrastare il fenomeno del cyberbullismo. Questa legge riconosce l'importanza di proteggere le vittime e prevede misure per la rimozione dei contenuti offensivi. In particolare, se sei minorenne e subisci atti di cyberbullismo, puoi chiedere direttamente al gestore del sito internet o del social media l'oscuramento, la rimozione o il blocco dei dati personali diffusi, se non vuoi o non riesci a farlo con l'aiuto di un adulto. Se la richiesta non viene soddisfatta entro 24 ore, puoi rivolgerti al Garante per la protezione dei dati personali.
 Ecco alcuni passi concreti che ti suggerisco di considerare:
