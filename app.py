@@ -203,19 +203,28 @@ Le suggerisco di parlare di quanto accaduto con qualcuno di cui si fida. Potrebb
 
 
          # --- BLOCCO TEST 3 ---
-        st.markdown("#### 🔹 Test Caso 1: [Scrivi qui un titolo breve del test, es: Segnalazione scherzo visivo]")
+        st.markdown("#### 🔹 Test Caso 1: Caso ambiguo di cyberbullismo")
         
         # Usiamo il tag di citazione (>) per far sembrare il testo incollato una vera chat passata
         st.markdown("""
-        > **Studente:** *[INCOLLA QUI il messaggio inviato dallo studente nel tuo test]*
+        > **Studente:** *eri siamo andati in gita e dei miei compagni di classe mentre stavamo scherzando facendo delle sciocchezze tutti insieme mi hanno fatto delle foto e mandate sul gruppo di classe, non so se arrabbiarmi o lasciar perdere.*
         > 
-        > **Risposta Chatbot:** *[INCOLLA QUI la risposta che ti ha dato l'Intelligenza Artificiale]*
+        > **Risposta Chatbot:** *Comprendo la sua incertezza riguardo a questa situazione e capisco che si trovi a riflettere su come comportarsi. È importante distinguere tra uno scherzo innocuo e un comportamento che potrebbe causare disagio o sfociare in qualcosa di più serio.
+
+Per aiutarla a capire meglio la natura di ciò che è accaduto, avrei bisogno di qualche dettaglio in più:
+
+Era consapevole che le foto venissero scattate? E le era stato chiesto il permesso di condividerle sul gruppo di classe?
+Che tipo di "sciocchezze" stavate facendo? Le foto la ritraevano in una situazione che potrebbe metterla in imbarazzo o che le sembra in qualche modo umiliante, o erano semplicemente momenti di leggerezza condivisa?
+Qual è stata la reazione nel gruppo di classe dopo la pubblicazione delle foto? Ci sono stati commenti negativi, prese in giro, o la situazione è stata accolta con spirito giocoso da tutti?
+Come si sente lei, in questo momento, riguardo al contenuto specifico delle foto e al fatto che siano state condivise? Si sente ferito, a disagio, o semplicemente confuso?
+Le risposte a queste domande sono fondamentali per valutare se si tratti di un semplice scherzo, magari fatto senza cattiveria ma che l'ha comunque messa a disagio, o se invece ci sia qualcosa di più vicino a un atto di cyberbullismo. Il confine a volte può essere sottile, ma la sua percezione e il suo disagio sono sempre importanti.*
         """)
         
         # Box di riflessione per il Test 3
         st.markdown("""
         **Commento e Riflessione sul Test 1:**
-        *CANCELLA QUESTO TESTO E SCRIVI QUI: Come si è comportato il bot? Ha risposto bene? Ha seguito le istruzioni di sistema o ha ripetuto le cose?*
+        *Nel terzo test abbiamo inserito un prompt in cui non si capisce se si tratta di cyberbullismo. l'IA ha risposto cercando di capire come si sente l'utente per capire se si tratta di un caso di bullismo.
+        Come nei casi precedenti ha spiegato quali sono i comportamenti che possono essere rimandati ad atti di bullismo e cyberbullismo.*
         """)
         
         st.write("---") # Linea di divisione tra i test
