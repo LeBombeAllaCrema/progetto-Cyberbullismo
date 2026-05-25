@@ -119,8 +119,8 @@ with col_documentazione:
     # CASELLA DI TESTO 4: SYSTEM INSTRUCTION (IL CUORE DEL BOT)
     with st.expander("🧠 SYSTEM INSTRUCTION", expanded=False):
         st.markdown("""
-        *Il prompt del chatbot è la parte più importante del progetto. I cambiamenti che abbiamo apportato al chatbot sono diversi. Gli abbiamo detto di usare un tono professionale, non troppo amichevole perché l'obiettivo del chatbot è quello di spronare il ragazzo a parlarne con amici, genitori o professori.
-        Gli abbiamo detto di consigliare sempre di parlarne con amici e genitori e di citare solo quando necessario la legge 71/2017. Inoltre il chatbot deve saper riconoscere atti di bullismo da semplici scherzi tra amici.*
+        *Il prompt del chatbot è la parte più importante del progetto. I cambiamenti che abbiamo apportato all'IA sono diversi. Il tono che userà sarà professionale, non troppo amichevole perché l'obiettivo del chatbot è quello di spronare il ragazzo a parlarne con amici, genitori o professori.
+        Inoltre dovrà consigliare sempre di parlarne con amici e genitori e di citare solo quando necessario la legge 71/2017. L'IA deve saper riconoscere atti di bullismo da semplici scherzi tra amici in modo tale da non fare errori e dare informazioni sbagliate.*
         """)
         st.code("""
 # Esempio di come passiamo le regole al modello Gemini
@@ -164,11 +164,11 @@ config=types.GenerateContentConfig(
         # Box di riflessione per il Test 1
         st.markdown("""
         **Commento e Riflessione sul Test 1:**
-        *Dal test sul caso reale di cyberbullismo abbiamo notato che il chatbot si è mosso esattamente come volevamo. Ha riconosciuto l'atto di bullismo e cyberbullismo, ha citato la legge 71/2017 ed ha consigliato di andare a parlarne con genitori o amici.*
+        *Il chatbot sul test del caso reale di cyberbullismo ha risposto esattamente come ci aspettavamo e volevamo. Ha riconosciuto l'atto di bullismo e cyberbullismo, ha citato la legge 71/2017 ed ha consigliato di andare a parlarne con genitori o amici.*
         """)
         
         # --- BLOCCO TEST 2 ---
-        st.markdown("#### 🔹 Test Caso 2: Caso di non cyberbullismo e bullismo")
+        st.markdown("#### 🔹 Test Caso 2: Dinamiche relazionali ordinarie (Assenza di bullismo o cyberbullismo)")
         st.markdown("""
         > **Studente:** *Ieri ho litigato con un mio compagno di classe su delle idee politiche, è stato un dibattito molto acceso visto che ci siamo tutti e due urlati contro e abbiamo alzato i toni. Non so veramente cosa fare perché sono arrabbiatissimo con lui.*
         > 
@@ -190,12 +190,12 @@ config=types.GenerateContentConfig(
         # Box di riflessione per il Test 2
         st.markdown("""
         **Commento e Riflessione sul Test 2:**
-        *Nel secondo test abbiamo messo alla prova il chatbot con una situazione in cui non è presente il cyberbullismo. L'IA è riuscita a riconoscere che non si trattava di un caso di bullismo ma solo di un litigio tra amici.
+        *Nel secondo test abbiamo messo alla prova il chatbot con una situazione in cui non è presente il cyberbullismo o il bullismo. L'IA è riuscita a riconoscere che non si trattava di un caso di bullismo ma solo di un litigio tra amici.
         Nel farlo ha messo in guardia l'utente su quali sono i casi per cui si può parlare di bullismo informandolo anche su come comportarsi.*
         """)
 
         # --- BLOCCO TEST 3 ---
-        st.markdown("#### 🔹 Test Caso 3: Caso ambiguo di cyberbullismo")
+        st.markdown("#### 🔹 Test Caso 3: Caso ambiguo di cyberbullismo e bullismo")
         
         st.markdown("""
         > **Studente:** *Ieri siamo andati in gita e dei miei compagni di classe mentre stavamo scherzando facendo delle sciocchezze tutti insieme mi hanno fatto delle foto e mandate sul gruppo di classe, non so se arrabbiarmi o lasciar perdere.*
@@ -212,8 +212,8 @@ config=types.GenerateContentConfig(
         # Box di riflessione per il Test 3
         st.markdown("""
         **Commento e Riflessione sul Test 3:**
-        *Nel terzo test abbiamo inserito un prompt in cui non si capisce se si tratta di cyberbullismo. L'IA ha risposto cercando di capire come si sente l'utente per inquadrare se si tratta di un caso di bullismo.
-        Come nei casi precedenti ha spiegato quali sono i comportamenti che possono essere rimandati ad atti di bullismo e cyberbullismo.*
+        *Nel terzo test abbiamo inserito un prompt in cui non si capisce se si tratta di cyberbullismo. L'IA ha risposto cercando di capire come si sente l'utente facendo domande per approfondire la situazione in modo tale da capire se si tratta di un caso di bullismo.
+        Come nei casi precedenti ha spiegato quali sono i comportamenti che possono essere rimandati ad atti di bullismo e cyberbullismo e come comportarsi se li dovesse subire.*
         """)
         
         st.write("---") # Linea di divisione tra i test
@@ -221,6 +221,6 @@ config=types.GenerateContentConfig(
     # CASELLA DI TESTO 5: CONCLUSIONI / COSA ABBIAMO IMPARATO
     st.subheader("🎯 Riflessioni Finali")
     st.markdown("""
-    *Una criticità che abbiamo riportato è che il robot in ogni situazione ripete sempre le stesse cose, ovviamente manca la parte umana, quindi non si potrà mai essere sicuri che la risposta del chatbot sia quella giusta perché non può vedere la comunicazione non verbale.
+    *Una criticità che abbiamo riportato è che il chatboto in ogni situazione ripete sempre le stesse cose e ciò che consiglia deve essere sempre interpretato, perché non avendo la parte umana non potremmo essere sicurti della risposta che darà per all'IA perché non può vedere la comunicazione non verbale, importante per capire cosa prova veramente una persona.
     Il rischio più grande che abbiamo cercato di evitare è rendere il chatbot troppo amichevole. Questo potrebbe provocare nel ragazzo un effetto contrario di chiusura verso il mondo reale. Questo perché reputerà che le risposte del chatbot siano vere e sincere come quelle di un amico, quindi preferirà parlare con un'intelligenza artificiale che con una persona reale perché pensa che lo capisca meglio.*
     """)
