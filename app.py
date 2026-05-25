@@ -139,9 +139,8 @@ config=types.GenerateContentConfig(
         # --- BLOCCO TEST 1 ---
         st.markdown("#### 🔹 Test Caso 1: Bullismo espicito e realistico")
         
-        # Usiamo il tag di citazione (>) per far sembrare il testo incollato una vera chat passata
         st.markdown("""
-        > **Studente:**Ciao sono uno studente delle superiori, i miei compagni di classe da inizio mi continuano a prendere in giro da inizio anno e continuano anche se gli dico di fermarsi. Ieri hanno esagerato mi hanno fatto una foto mentre ero al bagno e l'hanno pubblicata online , adeso sono lo zimbello di tutta la scuola 
+        > **Studente:** *Ciao sono uno studente delle superiori, i miei compagni di classe da inizio mi continuano a prendere in giro da inizio anno e continuano anche se gli dico di fermarsi. Ieri hanno esagerato mi hanno fatto una foto mentre ero al bagno e l'hanno pubblicata online , adeso sono lo zimbello di tutta la scuola 
 *
         > 
         > **Risposta Chatbot:** *Mi dispiace molto sentire ciò che stai vivendo. Comprendo che questa situazione ti stia causando un grande disagio e umiliazione, e voglio subito chiarire che ciò che ti è accaduto è un atto grave e inaccettabile di bullismo e cyberbullismo.
@@ -161,7 +160,6 @@ Per aiutarmi a darti consigli ancora più specifici, potresti dirmi:
 Su quale piattaforma online è stata pubblicata la foto?
 Hai già provato a segnalarla o a chiederne la rimozione?
 Come ti senti adesso, oltre ad essere umiliato? C'è qualcos'altro che ti preoccupa in particolare?
-
 *
         """)
         
