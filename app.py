@@ -141,41 +141,69 @@ config=types.GenerateContentConfig(
 Python
 import streamlit as st
 
-# --- BLOCCO TEST 1 ---
-st.markdown("#### 🔹 Test Caso 1: Bullismo esplicito e realistico")
+--- BLOCCO TEST 1 ---
+
+        st.markdown("#### 🔹 Test Caso 1: Bullismo espicito e realistico")
+
         
-st.markdown("""
-> **Studente:** *Ciao sono uno studente delle superiori, i miei compagni di classe da inizio anno mi continuano a prendere in giro e continuano anche se gli dico di fermarsi. Ieri hanno esagerato: mi hanno fatto una foto mentre ero al bagno e l'hanno pubblicata online, adesso sono lo zimbello di tutta la scuola.*
-> 
-> **Risposta Chatbot:** *Mi dispiace molto sentire ciò che stai vivendo. Comprendo che questa situazione ti stia causando un grande disagio e umiliazione, e voglio subito chiarire che ciò che ti è accaduto è un atto grave e inaccettabile di bullismo e cyberbullismo.*
->
-> *I tuoi compagni ti prendono in giro da inizio anno e non si fermano nonostante le tue richieste, e l'episodio della foto scattata in bagno e pubblicata online è una chiara violazione della tua privacy e della tua dignità. Questo tipo di comportamento, che ti espone al pubblico ludibrio e ti fa sentire lo "zimbello di tutta la scuola", è proprio ciò che la legge italiana intende per cyberbullismo e bullismo.*
->
-> *È fondamentale che tu sappia che esistono strumenti e supporti per affrontare questa situazione. La Legge 71/2017, infatti, è stata istituita proprio per contrastare il fenomeno del cyberbullismo. Questa legge riconosce l'importanza di proteggere le vittime e prevede misure per la rimozione dei contenuti offensivi. In particolare, se sei minorenne e subisci atti di cyberbullismo, puoi chiedere direttamente al gestore del sito internet o del social media l'oscuramento, la rimozione o il blocco dei dati personali diffusi, se non vuoi o non riesci a farlo con l'aiuto di un adulto. Se la richiesta non viene soddisfatta entro 24 ore, puoi rivolgerti al Garante per la protezione dei dati personali.*
->
-> *Ecco alcuni passi concreti che ti suggerisco di considerare:*
-> * **Non reagire direttamente online:** Evita di rispondere ai commenti o di interagire con chi ha pubblicato o condiviso la foto. Questo potrebbe solo alimentare la situazione.
-> * **Raccogli prove:** Se possibile, fai degli screenshot della foto e dei commenti, indicando la data e l'ora. Queste prove saranno molto utili nel caso in cui tu o gli adulti a cui ti rivolgerai decidiate di intraprendere azioni.
-> * **Segnala il contenuto:** Tutte le piattaforme social hanno funzioni per segnalare contenuti inappropriati, offensivi o che violano la privacy. Segnala la foto e chiedine la rimozione.
-> * **Parlane immediatamente con un adulto di cui ti fidi:** Questo è il passo più importante. Non devi affrontare questa situazione da solo.
->   * *Genitori o altri familiari:* Sono le prime persone che possono offrirti supporto emotivo e pratico.
->   * *Professori o il coordinatore di classe:* A scuola ci sono figure professionali che possono intervenire. La scuola ha il dovere di proteggerti e di attivare un protocollo anti-bullismo se necessario. Cerca di parlare con un professore di cui ti fidi, con il referente per il bullismo/cyberbullismo della tua scuola (se presente) o direttamente con il Dirigente Scolastico.
-> * **Chiedi di attivare il protocollo anti-bullismo:** Molte scuole hanno procedure specifiche per gestire questi casi, che possono includere colloqui con gli studenti coinvolti e azioni disciplinari.
-> * **Parlane con amici o compagni di classe di cui ti fidi:** Condividere il tuo peso con persone della tua età che ti supportano può aiutarti a sentirti meno solo e a trovare forza.
->
-> *Capisco che possa essere difficile parlare di un episodio così imbarazzante, ma è l'unico modo per fermare questa situazione e proteggerti. Ricorda che la vergogna non deve essere tua, ma di chi ha compiuto un'azione così grave.*
->
-> *Per aiutarmi a darti consigli ancora più specifici, potresti dirmi:*
-> 1. *Su quale piattaforma online è stata pubblicata la foto?*
-> 2. *Hai già provato a segnalarla o a chiederne la rimozione?*
-> 3. *Come ti senti adesso, oltre ad essere umiliato? C'è qualcos'altro che ti preoccupa in particolare?*
-""")
+
+        st.markdown("""
+
+        > **Studente:** *Ciao sono uno studente delle superiori, i miei compagni di classe da inizio mi continuano a prendere in giro da inizio anno e continuano anche se gli dico di fermarsi. Ieri hanno esagerato mi hanno fatto una foto mentre ero al bagno e l'hanno pubblicata online , adeso sono lo zimbello di tutta la scuola 
+
+*
+
+        > 
+
+        > **Risposta Chatbot:** *Mi dispiace molto sentire ciò che stai vivendo. Comprendo che questa situazione ti stia causando un grande disagio e umiliazione, e voglio subito chiarire che ciò che ti è accaduto è un atto grave e inaccettabile di bullismo e cyberbullismo.
+
+tuoi compagni ti prendono in giro da inizio anno e non si fermano nonostante le tue richieste, e l'episodio della foto scattata in bagno e pubblicata online è una chiara violazione della tua privacy e della tua dignità. Questo tipo di comportamento, che ti espone al pubblico ludibrio e ti fa sentire lo "zimbello di tutta la scuola", è proprio ciò che la legge italiana intende per cyberbullismo e bullismo.
+
+È fondamentale che tu sappia che esistono strumenti e supporti per affrontare questa situazione. La Legge 71/2017, infatti, è stata istituita proprio per contrastare il fenomeno del cyberbullismo. Questa legge riconosce l'importanza di proteggere le vittime e prevede misure per la rimozione dei contenuti offensivi. In particolare, se sei minorenne e subisci atti di cyberbullismo, puoi chiedere direttamente al gestore del sito internet o del social media l'oscuramento, la rimozione o il blocco dei dati personali diffusi, se non vuoi o non riesci a farlo con l'aiuto di un adulto. Se la richiesta non viene soddisfatta entro 24 ore, puoi rivolgerti al Garante per la protezione dei dati personali.
+
+Ecco alcuni passi concreti che ti suggerisco di considerare:
+
+Non reagire direttamente online: Evita di rispondere ai commenti o di interagire con chi ha pubblicato o condiviso la foto. Questo potrebbe solo alimentare la situazione.
+
+Raccogli prove: Se possibile, fai degli screenshot della foto e dei commenti, indicando la data e l'ora. Queste prove saranno molto utili nel caso in cui tu o gli adulti a cui ti rivolgerai decidiate di intraprendere azioni.
+
+Segnala il contenuto: Tutte le piattaforme social hanno funzioni per segnalare contenuti inappropriati, offensivi o che violano la privacy. Segnala la foto e chiedine la rimozione.
+
+Parlane immediatamente con un adulto di cui ti fidi: Questo è il passo più importante. Non devi affrontare questa situazione da solo.
+
+Genitori o altri familiari: Sono le prime persone che possono offrirti supporto emotivo e pratico.
+
+Professori o il coordinatore di classe: A scuola ci sono figure professionali che possono intervenire. La scuola ha il dovere di proteggerti e di attivare un protocollo anti-bullismo se necessario. Cerca di parlare con un professore di cui ti fidi, con il referente per il bullismo/cyberbullismo della tua scuola (se presente) o direttamente con il Dirigente Scolastico.
+
+Chiedi di attivare il protocollo anti-bullismo: Molte scuole hanno procedure specifiche per gestire questi casi, che possono includere colloqui con gli studenti coinvolti e azioni disciplinari.
+
+Parlane con amici o compagni di classe di cui ti fidi: Condividere il tuo peso con persone della tua età che ti supportano può aiutarti a sentirti meno solo e a trovare forza.
+
+Capisco che possa essere difficile parlare di un episodio così imbarazzante, ma è l'unico modo per fermare questa situazione e proteggerti. Ricorda che la vergogna non deve essere tua, ma di chi ha compiuto un'azione così grave.
+
+Per aiutarmi a darti consigli ancora più specifici, potresti dirmi:
+
+Su quale piattaforma online è stata pubblicata la foto?
+
+Hai già provato a segnalarla o a chiederne la rimozione?
+
+Come ti senti adesso, oltre ad essere umiliato? C'è qualcos'altro che ti preoccupa in particolare?
+
+*
+
+        """)
+
         
-# Box di riflessione per il Test 1
-st.markdown("""
-**Commento e Riflessione sul Test 1:**
-*Dal test sul caso reale di cyberbullismo abbiamo notato che il chatbot si è mosso esattamente come volevamo. Ha riconosciuto l'atto di bullismo e cyberbullismo, ha citato la legge 71/2017 ed ha consigliato di andare a parlarne con genitori o amici.*
-""")
+
+        # Box di riflessione per il Test 1
+
+        st.markdown("""
+
+        **Commento e Riflessione sul Test 1:**
+
+        *Dal test sul caso reale di cyberbullismo abbiamo notato che il chatbot si è mosso esattamente come volevamo. Ha riconosciuto l'atto di bullismo e cyberbullismo, ha citatop la legge 71/2017 ed ha consigliato di andare a parlarne con genitori o amici.*
+
+        """)
         
         
         # --- BLOCCO TEST 2 ---
